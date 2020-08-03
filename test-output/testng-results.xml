@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-03T19:03:42 CEST" name="Suite" finished-at="2020-08-03T19:04:21 CEST" duration-ms="38735">
+  <suite started-at="2020-08-03T19:33:09 CEST" name="Suite" finished-at="2020-08-03T19:33:39 CEST" duration-ms="30155">
     <groups>
     </groups>
-    <test started-at="2020-08-03T19:03:42 CEST" name="Test" finished-at="2020-08-03T19:04:21 CEST" duration-ms="38735">
+    <test started-at="2020-08-03T19:33:09 CEST" name="Test" finished-at="2020-08-03T19:33:39 CEST" duration-ms="30155">
       <class name="testsCases.AddressValidationTest">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:03:43 CEST" name="initializeBrowser" finished-at="2020-08-03T19:03:52 CEST" duration-ms="8993" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:33:10 CEST" name="initializeBrowser" finished-at="2020-08-03T19:33:18 CEST" duration-ms="8090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="addressTest(java.lang.String, java.lang.String)[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:03:52 CEST" name="addressTest" data-provider="Address" finished-at="2020-08-03T19:03:59 CEST" duration-ms="7396" status="PASS">
+        <test-method signature="addressTest(java.lang.String, java.lang.String)[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:33:18 CEST" name="addressTest" data-provider="Address" finished-at="2020-08-03T19:33:25 CEST" duration-ms="6999" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addressTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:03:59 CEST" name="closeBrowser" finished-at="2020-08-03T19:04:00 CEST" duration-ms="751" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:33:25 CEST" name="closeBrowser" finished-at="2020-08-03T19:33:25 CEST" duration-ms="747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:04:00 CEST" name="initializeBrowser" finished-at="2020-08-03T19:04:05 CEST" duration-ms="5298" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:33:25 CEST" name="initializeBrowser" finished-at="2020-08-03T19:33:30 CEST" duration-ms="5015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="addressTest(java.lang.String, java.lang.String)[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:04:05 CEST" name="addressTest" data-provider="Address" finished-at="2020-08-03T19:04:20 CEST" duration-ms="14847" status="PASS">
+        <test-method signature="addressTest(java.lang.String, java.lang.String)[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:33:30 CEST" name="addressTest" data-provider="Address" finished-at="2020-08-03T19:33:38 CEST" duration-ms="7605" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addressTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:04:20 CEST" name="closeBrowser" finished-at="2020-08-03T19:04:21 CEST" duration-ms="678" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:33:38 CEST" name="closeBrowser" finished-at="2020-08-03T19:33:39 CEST" duration-ms="693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

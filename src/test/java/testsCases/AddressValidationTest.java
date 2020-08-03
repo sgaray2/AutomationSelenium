@@ -16,6 +16,7 @@ public class AddressValidationTest extends Base {
 	public String path= System.getProperty("user.dir");
 		
 	@BeforeMethod
+	//This method will be run before each test method.
 	public void initializeBrowser() {
 		//calling the initialize method created in base class.
 		driver = initialize();
@@ -23,8 +24,7 @@ public class AddressValidationTest extends Base {
 	
 		@Test(dataProvider="Address")
 		public void addressTest(String address, String expectedAddress) {
-			//Creating an excel object to access the data
-			
+			//Receiving through parameters the input data and the expected result from the excel
 			
 			//creating a new HomePage object and passing the driver
 			HomePage homePageObj = new HomePage(driver);
@@ -38,13 +38,15 @@ public class AddressValidationTest extends Base {
 			Assert.assertEquals(actualResult, expectedAddress);
 		}
 		
+		
 		@DataProvider(name="Address")
 		public Object [][] addressInput()
 		{
-			//Creating an excelreader object and passing the path of my file
+		//Creating an excelreader object and passing the path of my file
 		ExcelReader excel= new ExcelReader("C:\\Users\\Beba\\eclipse-workspace\\AutomationDeliveryPractice\\src\\main\\java\\data\\DataTest.xlsx");
 		//getting the number of rows
 		int rows= excel.getRowsNumber(0);
+		//to store the data extracted from the excel
 		Object [][] data= new Object[rows][2];
 		
 		//looping the excel and getting the data
@@ -57,6 +59,7 @@ public class AddressValidationTest extends Base {
 		}
 		
 		@AfterMethod
+		//This method will be run after each test method.
 		public void closeBrowser() {
 			tearDown();
 		}
