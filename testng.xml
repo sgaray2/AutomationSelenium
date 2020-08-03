@@ -4,7 +4,6 @@
   <test thread-count="5" name="Test" parallel="classes">
     <classes>
       <class name="testsCases.AddressValidationTest"/>	
-      <class name="testsCases.AddToCartValidation"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

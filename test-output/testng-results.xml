@@ -1,77 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-02T10:55:04 ART" name="Suite" finished-at="2020-08-02T10:55:59 ART" duration-ms="54986">
+  <suite started-at="2020-08-03T19:03:42 CEST" name="Suite" finished-at="2020-08-03T19:04:21 CEST" duration-ms="38735">
     <groups>
     </groups>
-    <test started-at="2020-08-02T10:55:04 ART" name="Test" finished-at="2020-08-02T10:55:59 ART" duration-ms="54986">
+    <test started-at="2020-08-03T19:03:42 CEST" name="Test" finished-at="2020-08-03T19:04:21 CEST" duration-ms="38735">
       <class name="testsCases.AddressValidationTest">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddressValidationTest@79b06cab]" started-at="2020-08-02T10:55:11 ART" name="initializeBrowser" finished-at="2020-08-02T10:55:23 ART" duration-ms="12056" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:03:43 CEST" name="initializeBrowser" finished-at="2020-08-03T19:03:52 CEST" duration-ms="8993" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="addressTest()[pri:0, instance:testsCases.AddressValidationTest@79b06cab]" started-at="2020-08-02T10:55:23 ART" name="addressTest" finished-at="2020-08-02T10:55:38 ART" duration-ms="15234" status="PASS">
+        <test-method signature="addressTest(java.lang.String, java.lang.String)[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:03:52 CEST" name="addressTest" data-provider="Address" finished-at="2020-08-03T19:03:59 CEST" duration-ms="7396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bayerische Strasse 25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bayerische Straße 25, Berlin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addressTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddressValidationTest@79b06cab]" started-at="2020-08-02T10:55:58 ART" name="closeBrowser" finished-at="2020-08-02T10:55:59 ART" duration-ms="684" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:03:59 CEST" name="closeBrowser" finished-at="2020-08-03T19:04:00 CEST" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:04:00 CEST" name="initializeBrowser" finished-at="2020-08-03T19:04:05 CEST" duration-ms="5298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="addressTest(java.lang.String, java.lang.String)[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:04:05 CEST" name="addressTest" data-provider="Address" finished-at="2020-08-03T19:04:20 CEST" duration-ms="14847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Düsseldorfer Straße 3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Düsseldorfer Straße 3, Berlin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addressTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-03T19:04:20 CEST" name="closeBrowser" finished-at="2020-08-03T19:04:21 CEST" duration-ms="678" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testsCases.AddressValidationTest -->
-      <class name="testsCases.AddToCartValidation">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddToCartValidation@3eb7fc54]" started-at="2020-08-02T10:55:04 ART" name="initializeBrowser" finished-at="2020-08-02T10:55:11 ART" duration-ms="7072" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method signature="addItemToCart()[pri:0, instance:testsCases.AddToCartValidation@3eb7fc54]" started-at="2020-08-02T10:55:23 ART" name="addItemToCart" finished-at="2020-08-02T10:55:53 ART" duration-ms="29942" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Supplied function might have stalled
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'DESKTOP-MUIS24O', ip: '192.168.178.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Supplied function might have stalled
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'DESKTOP-MUIS24O', ip: '192.168.178.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:221)
-at pageObjects.RestaurantsList.getTotalPrice(RestaurantsList.java:65)
-at testsCases.AddToCartValidation.addItemToCart(AddToCartValidation.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:830)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1957)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-... 17 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addItemToCart -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddToCartValidation@3eb7fc54]" started-at="2020-08-02T10:55:53 ART" name="closeBrowser" finished-at="2020-08-02T10:55:58 ART" duration-ms="5160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testsCases.AddToCartValidation -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
