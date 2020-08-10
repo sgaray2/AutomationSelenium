@@ -15,7 +15,7 @@ public class Base {
 		 driver = new ChromeDriver();
 		 /*declaring implicit wait to tell my selenium test to wait 5 seconds
 		 before throwing any exception*/
-		 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		 driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		 //driver.manage().window().maximize();
 		 driver.get("https://www.lieferando.de");
 		 return driver;

@@ -24,11 +24,11 @@ By selectedAddress = By.xpath("//a[@class='lp__place notranslate selected']");
 //creating methods for objects actions method to send keys on the addressInput 
 public void setAddress(String addressData) {
 	driver.findElement(cookies).click();
-	WebElement input = new WebDriverWait(driver, Duration.ofSeconds(5)).until(ExpectedConditions.elementToBeClickable(addressInput));
+	WebElement input = new WebDriverWait(driver, Duration.ofSeconds(3)).until(ExpectedConditions.elementToBeClickable(addressInput));
 	input.click();
 	//selecting my current location
 	input.sendKeys(addressData);
-	WebElement addressList = new WebDriverWait(driver, Duration.ofSeconds(5)).until(ExpectedConditions.elementToBeClickable(selectedAddress));
+	WebElement addressList = new WebDriverWait(driver, Duration.ofSeconds(3)).until(ExpectedConditions.elementToBeClickable(selectedAddress));
 	addressList.click();
 	
 

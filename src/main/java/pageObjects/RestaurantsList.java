@@ -32,7 +32,7 @@ By totalPrice = By.xpath("//span[@class='cart-sum-price notranslate'][contains(t
 
 //methods
 public String getAddress() {
-	WebElement addressTitle = new WebDriverWait(driver, Duration.ofSeconds(25)).until(ExpectedConditions.visibilityOfElementLocated(restListAddress));
+	WebElement addressTitle = new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOfElementLocated(restListAddress));
 	String address = addressTitle.getText();
 	return address;
 }
@@ -50,19 +50,19 @@ public void selectRestaurant() {
 //click on an item from the restaurant menu
 public void selectRestaurantItem() {
 	driver.findElement(addToCart).click();
-	WebElement addBtn = new WebDriverWait(driver, Duration.ofSeconds(15)).until(ExpectedConditions.visibilityOfElementLocated(addToCartBtn));
+	WebElement addBtn = new WebDriverWait(driver, Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOfElementLocated(addToCartBtn));
 	addBtn.click();
 }
 
 public String getPrice()
     {
-	WebElement priceW = new WebDriverWait(driver, Duration.ofSeconds(15)).until(ExpectedConditions.visibilityOfElementLocated(itemPrice));
+	WebElement priceW = new WebDriverWait(driver, Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOfElementLocated(itemPrice));
 	String price = priceW.getText();
 	return price;
 }
 
 public String getTotalPrice() {
-	WebElement totalW = new WebDriverWait(driver, Duration.ofSeconds(15)).until(ExpectedConditions.visibilityOfElementLocated(totalPrice));
+	WebElement totalW = new WebDriverWait(driver, Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOfElementLocated(totalPrice));
 	String total = totalW.getText();
 	return total;
 }
