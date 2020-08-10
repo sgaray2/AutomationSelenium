@@ -1,7 +1,6 @@
 package pageObjects;
 
 import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -29,6 +28,11 @@ By addToCart = By.xpath("//div[@id='popularOP70OPN7R']//div[@class='js-meal__add
 By addToCartBtn = By.xpath("//button[@class='cartbutton-button cartbutton-button-sidedishes add-btn-icon']");
 By itemPrice = By.xpath("//div[@id='popularOP70OPN7R']//div[@class='meal__price notranslate'][contains(text(),'8,90')]");
 By totalPrice = By.xpath("//span[@class='cart-sum-price notranslate'][contains(text(),'8,90')]");
+By showMoreCategories= By.xpath("//a[@class='swiper-slide kitchen-types__show-more js-kitchen-types__show-more']");
+By categoryInput = By.className("tv-searchbox__searchfield");
+By veganCategory = By.xpath("//span[contains(@class,'tv-chip__inner-content')][contains(text(),'Vegan')]");
+By pickUpBtn = By.id("pickup-aside-button");
+By veganRestaurant = By.xpath("//a[contains(text(),'Sagano')]");
 
 //methods
 public String getAddress() {
@@ -65,6 +69,24 @@ public String getTotalPrice() {
 	WebElement totalW = new WebDriverWait(driver, Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOfElementLocated(totalPrice));
 	String total = totalW.getText();
 	return total;
+}
+
+public void showMoreCategories() {
+	driver.findElement(showMoreCategories).click();
+}
+
+public void insertCategory(String category) {
+	driver.findElement(categoryInput).sendKeys(category);
+	driver.findElement(veganCategory).click();
+}
+
+public void deliveryFilters() {
+	driver.findElement(pickUpBtn).click();
+}
+
+public void selectVeganRestaurant () {
+	
+	driver.findElement(veganRestaurant).click();
 }
 
 }
