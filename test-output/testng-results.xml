@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-11T11:55:17 CEST" name="Suite" finished-at="2020-08-11T11:56:37 CEST" duration-ms="79296">
+  <suite started-at="2020-08-11T13:25:57 CEST" name="Default suite" finished-at="2020-08-11T13:26:37 CEST" duration-ms="39162">
     <groups>
     </groups>
-    <test started-at="2020-08-11T11:55:17 CEST" name="Test" finished-at="2020-08-11T11:56:37 CEST" duration-ms="79296">
+    <test started-at="2020-08-11T13:25:57 CEST" name="Default test" finished-at="2020-08-11T13:26:37 CEST" duration-ms="39162">
       <class name="testsCases.AddressValidationTest">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddressValidationTest@48e4374]" started-at="2020-08-11T11:55:18 CEST" name="initializeBrowser" finished-at="2020-08-11T11:55:25 CEST" duration-ms="6627" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-11T13:25:58 CEST" name="initializeBrowser" finished-at="2020-08-11T13:26:10 CEST" duration-ms="12087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="addressTest(java.lang.String, java.lang.String)[pri:0, instance:testsCases.AddressValidationTest@48e4374]" started-at="2020-08-11T11:55:25 CEST" name="addressTest" data-provider="Address" finished-at="2020-08-11T11:55:35 CEST" duration-ms="10413" status="PASS">
+        <test-method signature="addressTest(java.lang.String, java.lang.String)[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-11T13:26:10 CEST" name="addressTest" data-provider="Address" finished-at="2020-08-11T13:26:21 CEST" duration-ms="10372" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addressTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddressValidationTest@48e4374]" started-at="2020-08-11T11:55:35 CEST" name="closeBrowser" finished-at="2020-08-11T11:55:36 CEST" duration-ms="758" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-11T13:26:21 CEST" name="closeBrowser" finished-at="2020-08-11T13:26:21 CEST" duration-ms="693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddressValidationTest@48e4374]" started-at="2020-08-11T11:55:36 CEST" name="initializeBrowser" finished-at="2020-08-11T11:55:41 CEST" duration-ms="4781" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-11T13:26:21 CEST" name="initializeBrowser" finished-at="2020-08-11T13:26:26 CEST" duration-ms="4913" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="addressTest(java.lang.String, java.lang.String)[pri:0, instance:testsCases.AddressValidationTest@48e4374]" started-at="2020-08-11T11:55:41 CEST" name="addressTest" data-provider="Address" finished-at="2020-08-11T11:55:53 CEST" duration-ms="12328" status="PASS">
+        <test-method signature="addressTest(java.lang.String, java.lang.String)[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-11T13:26:26 CEST" name="addressTest" data-provider="Address" finished-at="2020-08-11T13:26:36 CEST" duration-ms="9621" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,39 +51,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addressTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddressValidationTest@48e4374]" started-at="2020-08-11T11:55:53 CEST" name="closeBrowser" finished-at="2020-08-11T11:55:54 CEST" duration-ms="720" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddressValidationTest@6f96c77]" started-at="2020-08-11T13:26:36 CEST" name="closeBrowser" finished-at="2020-08-11T13:26:37 CEST" duration-ms="668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testsCases.AddressValidationTest -->
-      <class name="testsCases.PaypalPaymentValidation">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.PaypalPaymentValidation@4b5d6a01]" started-at="2020-08-11T11:56:12 CEST" name="initializeBrowser" finished-at="2020-08-11T11:56:16 CEST" duration-ms="4517" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method signature="paypalPaymentValidation()[pri:0, instance:testsCases.PaypalPaymentValidation@4b5d6a01]" started-at="2020-08-11T11:56:16 CEST" name="paypalPaymentValidation" finished-at="2020-08-11T11:56:36 CEST" duration-ms="19525" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- paypalPaymentValidation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.PaypalPaymentValidation@4b5d6a01]" started-at="2020-08-11T11:56:36 CEST" name="closeBrowser" finished-at="2020-08-11T11:56:37 CEST" duration-ms="796" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testsCases.PaypalPaymentValidation -->
-      <class name="testsCases.AddToCartValidation">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddToCartValidation@3d680b5a]" started-at="2020-08-11T11:55:54 CEST" name="initializeBrowser" finished-at="2020-08-11T11:56:00 CEST" duration-ms="6167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method signature="addItemToCart()[pri:0, instance:testsCases.AddToCartValidation@3d680b5a]" started-at="2020-08-11T11:56:00 CEST" name="addItemToCart" finished-at="2020-08-11T11:56:11 CEST" duration-ms="11105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addItemToCart -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddToCartValidation@3d680b5a]" started-at="2020-08-11T11:56:11 CEST" name="closeBrowser" finished-at="2020-08-11T11:56:12 CEST" duration-ms="685" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testsCases.AddToCartValidation -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

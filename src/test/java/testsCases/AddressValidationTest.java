@@ -43,7 +43,7 @@ public class AddressValidationTest extends Base {
 		public Object [][] addressInput()
 		{
 		//Creating an excelreader object and passing the path of my file
-		ExcelReader excel= new ExcelReader("C:\\Users\\Beba\\eclipse-workspace\\AutomationDeliveryPractice\\src\\main\\java\\data\\DataTest.xlsx");
+		ExcelReader excel= new ExcelReader(".\\src\\main\\java\\data\\DataTest.xlsx");
 		//getting the number of rows
 		int rows= excel.getRowsNumber(0);
 		//to store the data extracted from the excel

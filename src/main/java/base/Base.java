@@ -13,7 +13,7 @@ public class Base {
 	public WebDriver initialize() {
 		 WebDriverManager.chromedriver().setup();
 		 driver = new ChromeDriver();
-		 /*declaring implicit wait to tell my selenium test to wait 5 seconds
+		 /*declaring implicit wait to tell my selenium test to wait 20 seconds
 		 before throwing any exception*/
 		 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		 //driver.manage().window().maximize();
