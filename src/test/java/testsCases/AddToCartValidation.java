@@ -1,6 +1,8 @@
 package testsCases;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -12,7 +14,7 @@ public class AddToCartValidation extends Base {
 	
 	public String addressData = "Bayerische Straﬂe 25, Berlin"; 
 	
-	@BeforeTest
+	@BeforeMethod
 	public void initializeBrowser() 
 	{
 		//calling the initialize method created in base class.
@@ -39,7 +41,7 @@ public class AddToCartValidation extends Base {
 		
 	}
 	
-	@AfterTest
+	@AfterMethod
 	public void closeBrowser() {
 		tearDown();
 	}

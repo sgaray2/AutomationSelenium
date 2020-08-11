@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testsCases.AddToCartValidation">
+      <class name="testsCases.PaypalPaymentValidation">
         <methods>
-          <include name="addItemToCart"/>
+          <include name="paypalPaymentValidation"/>
           <include name="initializeBrowser"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- testsCases.AddToCartValidation -->
+      </class> <!-- testsCases.PaypalPaymentValidation -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

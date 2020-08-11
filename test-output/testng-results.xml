@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-10T17:55:59 CEST" name="Suite" finished-at="2020-08-10T17:57:33 CEST" duration-ms="93807">
+  <suite started-at="2020-08-11T11:55:17 CEST" name="Suite" finished-at="2020-08-11T11:56:37 CEST" duration-ms="79296">
     <groups>
     </groups>
-    <test started-at="2020-08-10T17:55:59 CEST" name="Test" finished-at="2020-08-10T17:57:33 CEST" duration-ms="93807">
+    <test started-at="2020-08-11T11:55:17 CEST" name="Test" finished-at="2020-08-11T11:56:37 CEST" duration-ms="79296">
       <class name="testsCases.AddressValidationTest">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddressValidationTest@4a22f9e2]" started-at="2020-08-10T17:56:07 CEST" name="initializeBrowser" finished-at="2020-08-10T17:56:12 CEST" duration-ms="4794" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddressValidationTest@48e4374]" started-at="2020-08-11T11:55:18 CEST" name="initializeBrowser" finished-at="2020-08-11T11:55:25 CEST" duration-ms="6627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="addressTest(java.lang.String, java.lang.String)[pri:0, instance:testsCases.AddressValidationTest@4a22f9e2]" started-at="2020-08-10T17:56:12 CEST" name="addressTest" data-provider="Address" finished-at="2020-08-10T17:56:21 CEST" duration-ms="8495" status="PASS">
+        <test-method signature="addressTest(java.lang.String, java.lang.String)[pri:0, instance:testsCases.AddressValidationTest@48e4374]" started-at="2020-08-11T11:55:25 CEST" name="addressTest" data-provider="Address" finished-at="2020-08-11T11:55:35 CEST" duration-ms="10413" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addressTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddressValidationTest@4a22f9e2]" started-at="2020-08-10T17:56:21 CEST" name="closeBrowser" finished-at="2020-08-10T17:56:21 CEST" duration-ms="751" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddressValidationTest@48e4374]" started-at="2020-08-11T11:55:35 CEST" name="closeBrowser" finished-at="2020-08-11T11:55:36 CEST" duration-ms="758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddressValidationTest@4a22f9e2]" started-at="2020-08-10T17:56:21 CEST" name="initializeBrowser" finished-at="2020-08-10T17:56:26 CEST" duration-ms="4691" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddressValidationTest@48e4374]" started-at="2020-08-11T11:55:36 CEST" name="initializeBrowser" finished-at="2020-08-11T11:55:41 CEST" duration-ms="4781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="addressTest(java.lang.String, java.lang.String)[pri:0, instance:testsCases.AddressValidationTest@4a22f9e2]" started-at="2020-08-10T17:56:26 CEST" name="addressTest" data-provider="Address" finished-at="2020-08-10T17:56:37 CEST" duration-ms="10711" status="PASS">
+        <test-method signature="addressTest(java.lang.String, java.lang.String)[pri:0, instance:testsCases.AddressValidationTest@48e4374]" started-at="2020-08-11T11:55:41 CEST" name="addressTest" data-provider="Address" finished-at="2020-08-11T11:55:53 CEST" duration-ms="12328" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,105 +51,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addressTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddressValidationTest@4a22f9e2]" started-at="2020-08-10T17:56:37 CEST" name="closeBrowser" finished-at="2020-08-10T17:56:38 CEST" duration-ms="841" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddressValidationTest@48e4374]" started-at="2020-08-11T11:55:53 CEST" name="closeBrowser" finished-at="2020-08-11T11:55:54 CEST" duration-ms="720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testsCases.AddressValidationTest -->
       <class name="testsCases.PaypalPaymentValidation">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.PaypalPaymentValidation@3c419631]" started-at="2020-08-10T17:57:07 CEST" name="initializeBrowser" finished-at="2020-08-10T17:57:11 CEST" duration-ms="4792" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.PaypalPaymentValidation@4b5d6a01]" started-at="2020-08-11T11:56:12 CEST" name="initializeBrowser" finished-at="2020-08-11T11:56:16 CEST" duration-ms="4517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="paypalPaymentValidation()[pri:0, instance:testsCases.PaypalPaymentValidation@3c419631]" started-at="2020-08-10T17:57:11 CEST" name="paypalPaymentValidation" finished-at="2020-08-10T17:57:32 CEST" duration-ms="20317" status="PASS">
+        <test-method signature="paypalPaymentValidation()[pri:0, instance:testsCases.PaypalPaymentValidation@4b5d6a01]" started-at="2020-08-11T11:56:16 CEST" name="paypalPaymentValidation" finished-at="2020-08-11T11:56:36 CEST" duration-ms="19525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paypalPaymentValidation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.PaypalPaymentValidation@3c419631]" started-at="2020-08-10T17:57:32 CEST" name="closeBrowser" finished-at="2020-08-10T17:57:32 CEST" duration-ms="729" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.PaypalPaymentValidation@4b5d6a01]" started-at="2020-08-11T11:56:36 CEST" name="closeBrowser" finished-at="2020-08-11T11:56:37 CEST" duration-ms="796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testsCases.PaypalPaymentValidation -->
       <class name="testsCases.AddToCartValidation">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddToCartValidation@4b5d6a01]" started-at="2020-08-10T17:55:59 CEST" name="initializeBrowser" finished-at="2020-08-10T17:56:06 CEST" duration-ms="6771" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testsCases.AddToCartValidation@3d680b5a]" started-at="2020-08-11T11:55:54 CEST" name="initializeBrowser" finished-at="2020-08-11T11:56:00 CEST" duration-ms="6167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="addItemToCart()[pri:0, instance:testsCases.AddToCartValidation@4b5d6a01]" started-at="2020-08-10T17:56:38 CEST" name="addItemToCart" finished-at="2020-08-10T17:57:07 CEST" duration-ms="28929" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='popularOP70OPN7R']//div[@class='js-meal__add-to-basket-button menucard-meal__sidedish-button']"}
-  (Session info: chrome=84.0.4147.105)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'DESKTOP-MUIS24O', ip: '192.168.178.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Beba\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b55b12a938e325ed34e9db57f58100da
-*** Element info: {Using=xpath, value=//div[@id='popularOP70OPN7R']//div[@class='js-meal__add-to-basket-button menucard-meal__sidedish-button']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='popularOP70OPN7R']//div[@class='js-meal__add-to-basket-button menucard-meal__sidedish-button']"}
-  (Session info: chrome=84.0.4147.105)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'DESKTOP-MUIS24O', ip: '192.168.178.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Beba\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b55b12a938e325ed34e9db57f58100da
-*** Element info: {Using=xpath, value=//div[@id='popularOP70OPN7R']//div[@class='js-meal__add-to-basket-button menucard-meal__sidedish-button']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
-at pageObjects.RestaurantsList.selectRestaurantItem(RestaurantsList.java:56)
-at testsCases.AddToCartValidation.addItemToCart(AddToCartValidation.java:31)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="addItemToCart()[pri:0, instance:testsCases.AddToCartValidation@3d680b5a]" started-at="2020-08-11T11:56:00 CEST" name="addItemToCart" finished-at="2020-08-11T11:56:11 CEST" duration-ms="11105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItemToCart -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddToCartValidation@4b5d6a01]" started-at="2020-08-10T17:57:32 CEST" name="closeBrowser" finished-at="2020-08-10T17:57:33 CEST" duration-ms="751" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testsCases.AddToCartValidation@3d680b5a]" started-at="2020-08-11T11:56:11 CEST" name="closeBrowser" finished-at="2020-08-11T11:56:12 CEST" duration-ms="685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

@@ -24,7 +24,7 @@ public class PaypalPaymentValidation extends Base {
 	}
 	
 	@Test
-	public void paypalPaymentValidation() {
+	public void paypalPaymentValidation() throws InterruptedException {
 		//home page
 		HomePage hp= new HomePage(driver);
 		hp.setAddress("Bayerische strasse 25A");
