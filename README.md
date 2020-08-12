@@ -4,9 +4,9 @@
 This project was created from scratch using my beginner knowledge in Automation with Selenium. My goal this time is to automate some scenarios on Lieferando App, an online food delivery.
 
 The test cases automated are the following:
-*AddressValidationTest: this scenario verifies the address that the user enters and the expected result is to receive the restaurants list that matches with the address entered.
-*AddToCartValidation: this scenario verifies all the steps from the start when the users enter its address, choose a restaurant and finally the user add a new item to the cart.
-*PaypalPaymentValidation: this scenario is an E2E test case that starts from the beginning when the user enters its address, choose a restaurant and a menu, completes the delivery information and finally go to the PayPal page to pay his order.
+* AddressValidationTest: this scenario verifies the address that the user enters and the expected result is to receive the restaurants list that matches with the address entered.
+* AddToCartValidation: this scenario verifies all the steps from the start when the users enter its address, choose a restaurant and finally the user add a new item to the cart.
+* PaypalPaymentValidation: this scenario is an E2E test case that starts from the beginning when the user enters its address, choose a restaurant and a menu, completes the delivery information and finally go to the PayPal page to pay his order.
 
 #### *IDE: 
 Eclipse
