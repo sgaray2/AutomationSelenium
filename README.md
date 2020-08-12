@@ -1,7 +1,6 @@
 # Automation Project: Lieferando App.
 
 ## Introduction
-## Introduction
 This project was created from scratch using my beginner knowledge in Automation with Selenium. My goal this time is to automate some scenarios on Lieferando App, an online food delivery.
 
 The test cases automated are the following:
