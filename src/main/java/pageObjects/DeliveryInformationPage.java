@@ -1,9 +1,13 @@
 package pageObjects;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class DeliveryInformationPage {
+import base.Base;
+
+public class DeliveryInformationPage extends Base {
 WebDriver driver= null;
 
 public DeliveryInformationPage(WebDriver driver) {
@@ -20,13 +24,20 @@ By newsletter = By.id("inewsletter");
 By payOrderBtn = By.xpath("//input[@class='button_form cartbutton-button']");
 
 //methods
-public void customerInformation(String name, String email, String phone, String remark) {
+public void customerInformation(String name, String email, String phone, String remark) throws IOException {
 	driver.findElement(customerNameInput).sendKeys(name);
+	takeScreenshots(driver,"devName");
 	driver.findElement(customerEmailInput).sendKeys(email);
+	takeScreenshots(driver,"devEmail");
 	driver.findElement(customerPhoneInput).sendKeys(phone);
+	takeScreenshots(driver,"devPhone");
 	driver.findElement(remarksInput).sendKeys(remark);
+	takeScreenshots(driver,"devRemarks");
 	driver.findElement(paypalMethod).click();
+	takeScreenshots(driver,"devPaypal");
 	driver.findElement(newsletter).click();
+	takeScreenshots(driver,"devNewsletter");
 	driver.findElement(payOrderBtn).click();
+	takeScreenshots(driver,"devPay");
 }
 }

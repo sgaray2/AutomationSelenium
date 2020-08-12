@@ -3,9 +3,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import base.Base;
 import excelReader.ExcelReader;
+
+import java.io.IOException;
 
 import org.testng.Assert;
 import pageObjects.HomePage;
@@ -23,7 +24,7 @@ public class AddressValidationTest extends Base {
 	}
 	
 		@Test(dataProvider="Address")
-		public void addressTest(String address, String expectedAddress) {
+		public void addressTest(String address, String expectedAddress) throws IOException {
 			//Receiving through parameters the input data and the expected result from the excel
 			
 			//creating a new HomePage object and passing the driver

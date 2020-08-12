@@ -1,5 +1,7 @@
 package testsCases;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -24,7 +26,7 @@ public class PaypalPaymentValidation extends Base {
 	}
 	
 	@Test
-	public void paypalPaymentValidation() throws InterruptedException {
+	public void paypalPaymentValidation() throws InterruptedException, IOException {
 		//home page
 		HomePage hp= new HomePage(driver);
 		hp.setAddress("Bayerische strasse 25A");

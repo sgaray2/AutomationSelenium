@@ -1,5 +1,6 @@
 package pageObjects;
 
+import java.io.IOException;
 import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -42,20 +43,24 @@ public String getAddress() {
 }
 
 //click on italian food option
-public void getItalianFood() {
+public void getItalianFood() throws IOException {
 	driver.findElement(italianFood).click();
+	takeScreenshots(driver,"italianFoodSelected");
 }
 
 //click on a restaurant from the italian list restaurants
-public void selectRestaurant() {
+public void selectRestaurant() throws IOException {
 	driver.findElement(restaurantSelected).click();
+	takeScreenshots(driver,"restaurantSelected");
+	
 }
 
 //click on an item from the restaurant menu
-public void selectRestaurantItem() {
+public void selectRestaurantItem() throws IOException {
 	driver.findElement(addToCart).click();
 	WebElement addBtn = new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOfElementLocated(addToCartBtn));
 	addBtn.click();
+	takeScreenshots(driver,"addToCart");
 }
 
 public String getPrice()
@@ -71,22 +76,27 @@ public String getTotalPrice() {
 	return total;
 }
 
-public void showMoreCategories() {
+public void showMoreCategories() throws IOException {
 	driver.findElement(showMoreCategories).click();
+	takeScreenshots(driver,"showMoreCategories");
 }
 
-public void insertCategory(String category) {
+public void insertCategory(String category) throws IOException {
 	driver.findElement(categoryInput).sendKeys(category);
+	takeScreenshots(driver,"enterCategory");
 	driver.findElement(veganCategory).click();
+	takeScreenshots(driver,"veganCategory");
 }
 
-public void deliveryFilters() {
+public void deliveryFilters() throws IOException {
 	driver.findElement(pickUpBtn).click();
+	takeScreenshots(driver,"pickUpSelected");
 }
 
-public void selectVeganRestaurant () {
+public void selectVeganRestaurant () throws IOException {
 	
 	driver.findElement(veganRestaurant).click();
+	takeScreenshots(driver,"veganRestaurantSelected");
 }
 
 }
